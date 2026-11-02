@@ -1,0 +1,13 @@
+# credentials and keys: never commit these
+*.pem
+*.key
+.env
+.env.*
+credentials
+.aws/
+
+# build output and editor clutter
+_pycache_/
+*.zip
+.DS_Store
+.vscode/
